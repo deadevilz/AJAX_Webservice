@@ -189,6 +189,7 @@ function loadAndClick()
 		var arDate2 = generate(click);
 		renderAll(arDate2);
 		inputdate(arDate2);
+		loadAndClick();
 		showTotalWeek();
 	}
 	function forward(){
@@ -197,6 +198,7 @@ function loadAndClick()
 		var arDate2 = generate(click);
 		renderAll(arDate2);
 		inputdate(arDate2);
+		loadAndClick();
 		showTotalWeek();
 	}
 	
