@@ -85,7 +85,7 @@ function loadAndClick()
 			var datetime = new Date();
 			datetime = addDay(datetime,adddate[datetime.getDay()]);
 			datetime = addDay(datetime,(click*7)+i);
-			var strdate = datetime.getDate().toString()+" "+strday[datetime.getDay()]+" "+strMonth[datetime.getUTCMonth()];
+			var strdate = datetime.getDate().toString()+" "+strday[datetime.getDay()]+" "+strMonth[datetime.getUTCMonth()]+" "+datetime.getUTCFullYear();
 			var intmonth = datetime.getUTCMonth()+1;
 			var month = intmonth.toString().length==1 ? "0"+intmonth.toString() : intmonth.toString() ;
 			var day = datetime.getUTCDate().toString().length==1 ? "0"+datetime.getUTCDate() : datetime.getUTCDate();
