@@ -22,7 +22,6 @@
 				}
 			?>
 		</select>
-		<input type="submit" value="choose" id="submit2">
 	</form>
 <?php 
 	require('config.php');

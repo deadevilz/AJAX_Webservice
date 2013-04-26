@@ -17,7 +17,7 @@ $(document).ready(function(){
 		var name = $('#pe').val();
 		$('#name').html(name);
 		$('#pe2').val(name);
-		alert(name);
+		//alert(name);
 		renderBlank();
 		$.ajax
 		({
