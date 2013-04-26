@@ -25,10 +25,11 @@
 	</form>
 <?php 
 	require('config.php');
+	echo "<h1 id=\"name\" style=\"margin-left:100px;\">Choose User...</h1>";
 	if(isset($_POST['pe']))
 	{	
 		$result = selectDB($objConnect,$_POST['pe']);
-		echo "<h1 id=\"name\" style=\"margin-left:100px;\">Choose User...</h1>";
+		
 	}
 	if(isset($_POST['total'][1]))
 	{	for($i=0;$i<5;$i++)
